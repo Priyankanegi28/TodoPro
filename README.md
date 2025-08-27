@@ -1,70 +1,82 @@
-# Getting Started with Create React App
+# Todo App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The **Mini-Todo App** is a modern task management application built using **React.js** for the frontend and **Firebase** for authentication and backend data storage. It allows users to **sign up, log in, manage their todos**, and securely log out. Users can **add tasks with a title, description, priority, and due date, edit tasks, mark them as completed, and delete tasks**.
 
-## Available Scripts
+![Todo Preview](screenshots/main.png)
+![Todo Preview](screenshots/todo.png)
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## ✨ Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+✔️ **User Authentication** – Sign up and log in securely using Firebase Authentication.
+📝 **Add Todos** – Create tasks with title, description, priority, and due date.
+📌 **View Todos** – All added todos are displayed with real-time updates.
+✏️ **Edit Todos** – Update task details directly in the app.
+✅ **Complete Tasks** – Mark tasks as completed.
+🗑️ **Delete Todos** – Remove tasks when no longer needed.
+👤 **Logout** – Securely log out from your account.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 🛠️ Tech Stack
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* **Frontend:** React.js, JavaScript, CSS
+* **Backend & Database:** Firebase Firestore
+* **Authentication:** Firebase Authentication
+* **Hosting:** GitHub Pages or Firebase Hosting
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🚀 Getting Started
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 1️⃣ Clone the Repository
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+git clone https://github.com/Priyankanegi28/TodoPro.git
+cd TodoPro
+```
 
-### `npm run eject`
+### 2️⃣ Install Dependencies
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+npm install
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 3️⃣ Configure Firebase
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+* Create a Firebase project in [Firebase Console](https://console.firebase.google.com/).
+* Enable **Email/Password Authentication**.
+* Create a **Firestore database**.
+* Copy your Firebase config and replace it in `src/firebase.js`.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### 4️⃣ Run the App Locally
 
-## Learn More
+```bash
+npm start
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+* The app will open at `http://localhost:3000`.
+* Sign up or log in to start managing your todos.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### 5️⃣ Deploy
 
-### Code Splitting
+```bash
+npm run deploy
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+* This uses `gh-pages` to publish your React app to GitHub Pages.
+* Your live app URL: `https://Priyankanegi28.github.io/TodoPro/`
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 🔄 Workflow
 
-### Making a Progressive Web App
+1. **Sign up** with your email and password.
+2. **Log in** to access your personal todo list.
+3. **Add todos** with title, description, priority, and due date.
+4. **Edit, complete, or delete** tasks as needed.
+5. **Log out** securely when done.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
