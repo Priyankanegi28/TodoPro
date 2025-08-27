@@ -2,19 +2,25 @@
 
 The **Mini-Todo App** is a modern task management application built using **React.js** for the frontend and **Firebase** for authentication and backend data storage. It allows users to **sign up, log in, manage their todos**, and securely log out. Users can **add tasks with a title, description, priority, and due date, edit tasks, mark them as completed, and delete tasks**.
 
-![Todo Preview](screenshots/main.png)
-![Todo Preview](screenshots/todo.png)
+![Todo Preview](https://github.com/Priyankanegi28/TodoPro/blob/main/src/screenshots/main.png)
+![Todo Preview](https://github.com/Priyankanegi28/TodoPro/blob/main/src/screenshots/todo.png)
 
 ---
 
 ## ✨ Features
 
 ✔️ **User Authentication** – Sign up and log in securely using Firebase Authentication.
+
 📝 **Add Todos** – Create tasks with title, description, priority, and due date.
+
 📌 **View Todos** – All added todos are displayed with real-time updates.
+
 ✏️ **Edit Todos** – Update task details directly in the app.
+
 ✅ **Complete Tasks** – Mark tasks as completed.
+
 🗑️ **Delete Todos** – Remove tasks when no longer needed.
+
 👤 **Logout** – Securely log out from your account.
 
 ---
