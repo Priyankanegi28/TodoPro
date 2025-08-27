@@ -1,6 +1,6 @@
 import { faSignOutAlt } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { useEffect } from 'react';
+import React, { useEffect } from "react";
 import { useNavigate } from 'react-router-dom';
 import { UserAuth } from '../context/AuthContext';
 

@@ -1,7 +1,8 @@
 import { faFacebookF, faInstagram, faLinkedinIn, faTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons';
 import { faPaperPlane, faTasks } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { useState } from 'react';
+import React, { useState } from "react";
+
 
 const Footer = () => {
   const [activeLink, setActiveLink] = useState(null);

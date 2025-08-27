@@ -1,23 +1,16 @@
 import {
-    faCalendarDay, faCheckCircle, faEdit, faList, faPlus,
-    faSearch, faSignOutAlt, faStar, faTrash, faUser, faTimes
+  faCalendarDay, faCheckCircle, faEdit, faList, faPlus,
+  faSearch, faSignOutAlt, faStar, faTimes, faTrash, faUser
 } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { useEffect, useState } from 'react';
+import {
+  addDoc, collection, deleteDoc,
+  doc, onSnapshot, orderBy, query, updateDoc, where
+} from 'firebase/firestore';
+import React, { useEffect, useState } from "react";
 import { useNavigate } from 'react-router-dom';
 import { UserAuth } from '../context/AuthContext';
 import { db } from '../firebase';
-import { 
-  collection, 
-  addDoc, 
-  updateDoc, 
-  deleteDoc, 
-  doc, 
-  query, 
-  where, 
-  orderBy, 
-  onSnapshot 
-} from 'firebase/firestore';
 
 const Todos = () => {
   const { user, logout } = UserAuth();

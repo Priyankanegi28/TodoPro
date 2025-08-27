@@ -2,7 +2,7 @@ import { faAngleDown, faArrowRight, faBell, faBolt, faChartLine, faCheckCircle, 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import { useEffect, useState } from 'react';
+import React, { useEffect, useState } from "react";
 import { Link } from 'react-router-dom';
 const Home = () => {
   const [counters, setCounters] = useState({
