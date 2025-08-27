@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Priyankanegi28/TodoPro/static/css/main.09af918c.css",
-    "main.js": "/Priyankanegi28/TodoPro/static/js/main.bf6a9b71.js",
-    "index.html": "/Priyankanegi28/TodoPro/index.html",
-    "main.09af918c.css.map": "/Priyankanegi28/TodoPro/static/css/main.09af918c.css.map",
-    "main.bf6a9b71.js.map": "/Priyankanegi28/TodoPro/static/js/main.bf6a9b71.js.map"
+    "main.css": "/TodoPro/static/css/main.09af918c.css",
+    "main.js": "/TodoPro/static/js/main.175d5356.js",
+    "index.html": "/TodoPro/index.html",
+    "main.09af918c.css.map": "/TodoPro/static/css/main.09af918c.css.map",
+    "main.175d5356.js.map": "/TodoPro/static/js/main.175d5356.js.map"
   },
   "entrypoints": [
     "static/css/main.09af918c.css",
-    "static/js/main.bf6a9b71.js"
+    "static/js/main.175d5356.js"
   ]
 }
